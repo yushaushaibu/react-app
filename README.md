@@ -38,5 +38,8 @@ The goal is to configure or customize a child component. The Props System allows
 
 `props is Javascript object` <CommentDetail author="Alex"> --> {author: "Alex"}
 
+`props.children`
+The technique of passing a component to another component as a props. i.e Parent component wraps  around child component. The nested (child) component is accessed in the parent component as `props.children`
+
 - Semantic UI library.
 - faker.js: generate massive amount of realistic fake data.
