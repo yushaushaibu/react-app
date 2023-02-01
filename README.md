@@ -29,6 +29,12 @@ The App.js component renders instances of other (child) components and passes do
 A system for passing data from a `parent` component (app.js) to `child` component.
 The goal is to configure or customize a child component. The Props System allows a parent to customize how a child looks and behaves.
 
+`The two stages of props system`
+1. Passing down information from parent to child.
+2. The child takes in and uses the information.
+
+`props is Javascript object` <CommentDetail author="Alex"> --> {author: "Alex"}
+
 
 
 

@@ -4,7 +4,9 @@ import CommentDetail from "./CommentDetail";
 const App = () => {
   return (
     <div>
-      <CommentDetail />
+      <CommentDetail author="Alex" />
+      <CommentDetail author="Kim" />
+      <CommentDetail author="Mike" />
     </div>
   );
 };
